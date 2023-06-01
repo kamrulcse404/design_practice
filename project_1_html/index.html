@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First Project</title>
+  </head>
+  <body>
+    <h1 align="center" id="top">Study With Kamrul</h1>
+    <p align="center">
+      <img src="./photo/web_logo.jpg" alt="logo" width="60px" height="60px" />
+    </p>
+
+    <hr />
+
+    <iframe
+      src="https://www.prothomalo.com/"
+      frameborder="0"
+      height="350px"
+      width="650px"
+    ></iframe>
+
+    <iframe
+      width="650px"
+      height="350px"
+      src="https://www.youtube.com/embed/JFNUVJtlQDU"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+
+    <hr />
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ut
+      quis ratione accusantium aspernatur unde, sint asperiores neque sapiente
+      ab molestiae voluptates ipsam reiciendis? Repellat corporis quasi id at
+      eum quisquam nisi excepturi, cumque consectetur, ab incidunt corrupti
+      aspernatur asperiores pariatur consequatur debitis quas amet similique
+      accusamus praesentium laboriosam odit quam! Velit enim dicta assumenda
+      corporis nostrum nemo laborum ad tempore quia nesciunt officia pariatur
+      dolore consequuntur, voluptates minima et sequi, sapiente harum aliquam
+      laboriosam, dolor obcaecati expedita maiores ducimus? Quasi dolorem, dicta
+      error ducimus dolor, id magni voluptatibus, maiores dolores voluptas
+      quisquam. In omnis non reprehenderit rerum, quibusdam cupiditate dolor
+      quasi sunt veritatis totam minima possimus vitae nemo deserunt, dolores
+      iure illum pariatur, delectus laudantium cumque sapiente?
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eius
+      fuga perferendis illum enim maiores, voluptas deleniti neque praesentium
+      iure, eveniet quo aspernatur iste unde id harum, asperiores eos! Iusto
+      iste sequi aut vitae enim, aspernatur repudiandae porro animi atque, cum
+      reprehenderit sed consequatur vero asperiores at commodi magni. Quibusdam
+      saepe quo ducimus dolor in deleniti voluptatum quos illum praesentium
+      dolorem, ratione voluptates reprehenderit perferendis accusamus reiciendis
+      dicta nisi ab! Culpa error debitis delectus distinctio nisi natus
+      laboriosam molestiae ea cupiditate minus eius assumenda, voluptatibus
+      ullam itaque cum aliquam aperiam! Corporis rerum vero obcaecati dolore
+      quas quis saepe repudiandae odio.
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+      architecto, sequi dignissimos repellat ut, consequatur repellendus maiores
+      aliquam dolores sapiente cum voluptatem aliquid eos voluptate distinctio
+      possimus! Earum architecto odit pariatur temporibus distinctio esse
+      exercitationem nam incidunt fuga culpa aliquam excepturi dolorum odio
+      molestias, voluptates quia, in quos hic nulla voluptatem, perspiciatis
+      iste asperiores? Adipisci cumque repellat ad nemo temporibus. Consequuntur
+      dolorum quam itaque veniam sed minima cupiditate nostrum! Eligendi error
+      impedit perspiciatis. Nobis nam eum dolore doloremque deserunt similique
+      illo delectus, blanditiis esse dicta modi ipsam saepe excepturi. Atque
+      quidem minima repellendus illum minus provident odio autem doloribus
+      veritatis.
+    </p>
+
+    <hr />
+
+    <table border="2">
+      <caption>
+        Student Information
+      </caption>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>GPA</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>101</td>
+          <td>Kamrul Hasan</td>
+          <td>3.20</td>
+        </tr>
+        <tr>
+          <td>102</td>
+          <td>Rezaure</td>
+          <td>3.38</td>
+        </tr>
+        <tr>
+          <td>103</td>
+          <td>Shahadatunnobi Choudhury</td>
+          <td>3.20</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+
+    <form>
+      <datalist id="names">
+        <option value="Kamrul Hasan">Kamrul Hasan</option>
+        <option value="Rezaure Rahman">Rezaure Rahman</option>
+        <option value="Faisal Ahmed">Faisal Ahmed</option>
+        <option value="Mizanur Rahman">Mizanur Rahman</option>
+        <option value="Spriha Islam">Spriha Islam</option>
+      </datalist>
+
+      <p>
+        <label for="userName">User Name:</label>
+        <input
+          type="text"
+          name="userName"
+          id="userName"
+          placeholder="Only letters and numbers"
+          pattern="[a-zA-Z0-9]+"
+          required
+          list="names"
+        />
+      </p>
+
+      <p>
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Enter password Please"
+          required
+        />
+      </p>
+
+      <p>
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          required
+          placeholder="Enter email please"
+        />
+      </p>
+
+      <p>
+        <label for="religion">Religion:</label>
+        <input
+          checked
+          type="checkbox"
+          name="religion"
+          id="religion"
+          value="islam"
+        />
+        Islam
+        <input type="checkbox" name="religion" id="religion" value="hindu" />
+        Hindu
+      </p>
+
+      <p>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="gender" value="male" /> Male
+        <input type="radio" name="gender" id="gender" value="female" /> Female
+      </p>
+
+      <p>
+        <label for="department">Department:</label>
+        <select name="department" id="department">
+          <option value="cse">CSE</option>
+          <option value="me">ME</option>
+          <option value="llb">LLB</option>
+          <option selected value="eee">EEE</option>
+        </select>
+      </p>
+      <p>
+        <label for="feedback">Feedback: </label><br />
+        <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
+      </p>
+
+      <p>
+        <input type="submit" value="Sign Up" />
+        <input type="reset" value="Clear" />
+      </p>
+    </form>
+
+    <hr />
+
+    <p>
+      <video
+        src="./video/Facebook.mp4"
+        width="320px"
+        height="240px"
+        controls
+      ></video>
+      <audio
+        src="./audio/PYAR KIYA TO NIBHANA (SLOWED + REVERB) -- MSL LOFI BOY.mp4"
+        controls
+      ></audio>
+    </p>
+
+    <ol>
+      <li><a href="https://www.facebook.com/kamrulHasan93p" target="_blank">My Facebook Profile</a></li>
+      <li><a href="https://github.com/kamrulcse404" target="_blank">Github</a></li>
+      <li><a href="" id="#top">Go to top</a></li>
+    </ol>
+
+    <p>Developed by &copy; <font color="red">Md Kamrul Hasan</font></p>
+
+  </body>
+</html>

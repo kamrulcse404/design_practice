@@ -1,0 +1,53 @@
+/* h1{
+    text-shadow: 3px 3px 3px tomato;
+}
+
+div{
+    width: 200px;
+    background-color: rebeccapurple;
+    border: 2px solid black;
+    padding: 5px;
+    box-shadow: 10px 15px 10px gray;
+} */
+
+.card-containers{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: aquamarine;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.card{
+    width: 300px;
+    box-sizing: border-box;
+    margin: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.card-image{
+    width: 100%;
+}
+
+.card-body{
+    padding: 5px;
+    background-color: tomato;
+}
+
+.card-body .card-title{
+    font-size: 2rem;
+    text-align: center;
+    color: wheat;
+}
+
+.card-body .card-description{
+    text-align: justify;
+    line-height: 1.5;
+    color: wheat;
+}
+
+.card:hover{
+    box-shadow: 10px 10px 10px gray;
+}

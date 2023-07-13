@@ -1,0 +1,29 @@
+img{
+    max-width: 200px;
+    height: auto;
+    border: 5px solid black;
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 50%;
+
+    /* animation-name: img-amin;
+    animation-duration: 3s; */
+}
+
+img:hover{
+    animation-name: img-amin;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes img-amin{
+    from{
+        max-width: 200px;
+        border-color: chocolate;
+    }
+    to{
+        max-width: 300px;
+        border-color: brown;
+    }
+}

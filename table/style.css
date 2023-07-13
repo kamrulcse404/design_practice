@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+table{
+    border: 1px solid tomato;
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td{
+    border: 1px solid tomato;
+    padding: 10px;
+    text-align: center;
+}
+th{
+    background-color: coral;
+    height: 30px;
+}
+
+tr:nth-child(even){
+    background-color: chocolate;
+}
+tr:nth-child(odd){
+    background-color: rgba(40, 172, 154, 0.938);
+}
+
+tr:hover{
+    background-color: rgb(219, 25, 122);
+}

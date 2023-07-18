@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+.course-list{
+    background-color: tomato;
+    padding: 15px;
+    /* color: whitesmoke; */
+}
+.course-list ul{
+    /* list-style-type: circle;
+    list-style-position: inside;
+    list-style-image: url("./icons/check-mark.png"); */
+
+    list-style-type: none;
+
+}
+.course-list li{
+    font-size: 1.2rem; 
+    color: whitesmoke;
+}
+
+.course-list li::before{
+    content: '\f058';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px 5px;
+    color: teal;
+}

@@ -161,3 +161,189 @@ h2{
     clear: both;
 }
  /* card section end */
+
+
+/* skills container start */
+.skills-container{
+    padding-right: 45px;
+}
+
+.skills-container li{
+    list-style: none;
+    font-weight: bolder;
+    margin: 30px 10px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.skills-container li::before{
+    content: '';
+    position: absolute;
+    top: calc(100% + 5px);
+    width: 100%;
+    height: 10px;
+    left: 0;
+    border-radius: 1000px;
+    background-color: rgb(86, 86, 153, .5);
+}
+
+.skills-container li::after{
+    content: '';
+    position: absolute;
+    top: calc(100% + 5px);
+    width: 0;
+    height: 10px;
+    left: 0;
+    border-radius: 1000px;
+    background-color: rgb(86, 86, 153, 1);
+
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count:inherit;
+}
+
+.skills-container li.html::after{
+    animation-name: html;
+}
+
+.skills-container li.css::after{
+    animation-name: css;
+}
+
+.skills-container li.js::after{
+    animation-name: js;
+}
+
+.skills-container li.laravel::after{
+    animation-name: laravel;
+}
+
+.skills-container li.react::after{
+    animation-name: react;
+}
+
+@keyframes html{
+    to{
+        width: 90%;
+    }
+}
+
+
+@keyframes css{
+    to{
+        width: 80%;
+    }
+}
+
+
+@keyframes js{
+    to{
+        width: 70%;
+    }
+}
+
+
+@keyframes laravel{
+    to{
+        width: 85%;
+    }
+}
+
+
+@keyframes react{
+    to{
+        width: 80%;
+    }
+}
+/* skills container end */
+
+
+/* footer start */
+.achivement-contact{
+    padding: 1% 7%;
+    background-color: #39a4ac;
+    color: white;
+}
+
+.contact{
+    text-align: center;
+}
+.contact input, textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+}
+
+.contact button{
+    border: none;
+    border-radius: 12px;
+    background-color: #052d2f;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    margin: 10px;
+    width: 100px;
+}
+
+.contact-links{
+    text-align: center;
+
+}
+
+.media-button .btn{
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 32px;
+    padding: 5px;
+    margin: 10px;
+    width: 50px;
+    background-color: white;
+}
+
+.media-button .btn:hover{
+    background-color: gray;
+}
+
+.achivement-contact::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+
+
+/* footer end */
+
+
+.footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.footer a{
+    display: block;
+    margin: 15px 0;
+    font-size: 1rem;
+}
+
+.footer a:hover{
+    color: gray;
+}
+
+
+
+.footer::after{
+    content: '';
+    display: table;
+    clear: both;
+}
